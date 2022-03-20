@@ -1,0 +1,101 @@
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    color : white;
+}
+p{
+    background-color:black;
+    border:0em;
+    border-color: yellowgreen;
+    border-radius: 25px;
+    border-style: solid;
+    text-align: center;
+}
+.Images{
+    background-color:black;
+}
+.card{
+    size: 20px;
+    align-items: center;
+    transition: 0.3s;
+    padding-left: 50px;
+  }
+  img{
+    align-items: center;
+    padding: 10px;
+  }
+  
+.card:hover {
+    size : 30px;
+    opacity: 1;
+ }
+ button{
+    color: darkgreen;
+    text-align: center;
+    font-size: 20px;
+    background-color: darkgreen;
+    border-radius: 25px;
+    border:none;
+}
+
+#menu{
+    text-decoration:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: center;
+}
+     
+#menu ul{
+    text-align: center;
+    float: center;
+    background: darkgreen;
+}
+     
+#menu button a{
+    display: inline-block;
+    text-transform: uppercase;
+    padding:0em 2.0em;
+    line-height: 50px;
+    width : auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+     
+#menu a{
+     color: #FFF;
+     width: max-content;
+     font-size: larger;
+     word-spacing:10px;
+}
+     
+#menu button:hover a{
+    background: black;
+    color: blue;
+    border-radius: 25px;
+}
+
+#text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-emphasis-color: brown;
+    text-align: center;
+    text-decoration: solid;
+    color: transparent;
+}
+.message{
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 70px;
+    font-weight: bolder;
+    color: black;
+}
+
